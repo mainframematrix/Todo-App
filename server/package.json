@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "0.0.1",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "run": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mainframematrix/Todo-App.git"
+  },
+  "author": "MainframeMatrix",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mainframematrix/Todo-App/issues"
+  },
+  "homepage": "https://github.com/mainframematrix/Todo-App#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
