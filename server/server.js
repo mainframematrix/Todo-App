@@ -1,5 +1,5 @@
 const express = require("express")
-const helloRouter = require("./API/hello/webHandler")
+const helloRouter = require("./Handler/webHandler")
 const generateSecret = require("./common/generateSecret")
 
 // load all the env variables from a .env file in the same directory
