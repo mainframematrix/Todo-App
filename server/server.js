@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 8080
 if (!process.env.JWT_SECRET) {
     // If no JWT secret is found, generate a new one and set it in process.env
     const generatedSecret = generateSecret();
-    console.log('No JWT_SECRET found, generating a new one:', process.env.SECRET_KEY); // Set dynamically
+    console.log('No JWT_SECRET found, generating a new one:', process.env.JWT_SECRET); // Set dynamically
 }
 
 // Creates an instance of express
